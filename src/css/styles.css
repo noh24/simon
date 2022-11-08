@@ -1,0 +1,46 @@
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red,
+.green,
+.blue, 
+.yellow {
+  height: 400px;
+  width: 400px;
+  float: left;
+}
+.red,
+.green,
+.blue, 
+.yellow {
+  cursor: pointer;
+  border-radius: 5555555px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+#color-boxes {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
